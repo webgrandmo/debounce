@@ -14,6 +14,7 @@ const debounce = (fn, delay) => {
     }, delay)
   }
 }
+//The click event listener
 document.getElementById('button').addEventListener('click', debounce(e => {
   console.log('Clicked');
 }, 2000));
